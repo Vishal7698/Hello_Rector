@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Student Information"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerhosteltype"
+            android:layout_width="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextstudentname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Student Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextmobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student Mobile No."
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Emial ID"
+        android:inputType="textEmailAddress" />
+
+        <EditText
+        android:id="@+id/editTextcollageid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="College ID"
+        android:inputType="textPersonName" />
+
+
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Parrent Information"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Parents Information"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/editTextparrentname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Parents Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextparentmobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mobile No"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextparentaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextparentrelation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Relation"
+        android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gardian Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+             />
+
+        <EditText
+            android:id="@+id/editTextgardianname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Gardian Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextgardianmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Gardian Number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextgardianaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Gardian Address"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttondavestudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Information And Allocate Room" />
+    </LinearLayout>
+</ScrollView>

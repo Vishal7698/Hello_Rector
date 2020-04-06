@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hello Rector</string>
+    <string name="nodataavailable">No Data Available</string>
+</resources>

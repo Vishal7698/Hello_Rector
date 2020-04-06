@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/card_view"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+card_view:cardBackgroundColor="@color/color_white"
+card_view:cardCornerRadius="10dp"
+card_view:cardElevation="5dp"
+card_view:cardUseCompatPadding="true">
+    <LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/setstudentid"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:text="No student availabel"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/smobilenumber"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:text="No mobile number"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/setcollageid"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:text="No collage id"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/setemailid"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:text="No email id "
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:id="@+id/studentinfo"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+                <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/info"
+                android:layout_weight="1"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Student Info"
+                android:textSize="8dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+<!--        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:id="@+id/parrentinfo"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+     <ImageView
+            android:layout_width="20dp"
+            android:src="@drawable/parentinfo"
+            android:layout_weight="1"
+            android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Parent Info"
+                android:textSize="8dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:id="@+id/feeinfo"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+     <ImageView
+            android:layout_width="20dp"
+            android:src="@drawable/hostelpayment"
+            android:layout_weight="1"
+            android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Fee Info"
+                android:textSize="8dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:id="@+id/exporttinfo"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+     <ImageView
+            android:layout_width="20dp"
+            android:src="@drawable/exportasexcel"
+            android:layout_weight="1"
+            android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Export data"
+                android:textSize="8dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+-->
+
+    </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
